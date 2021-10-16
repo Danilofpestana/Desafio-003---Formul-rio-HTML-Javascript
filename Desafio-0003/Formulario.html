@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 0003 - Formulário Html/Javascript</title>
+    <script src="MostrarDados.js"></script>
+    <link rel="stylesheet" href="Estilo.css">
+</head>
+<body>
+    <h1>Formulário de Cadastro - Desafio 003</h1>
+    <div class="form">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" placeholder="Digite seu nome">
+    </div>
+    <div class="form">
+        <label for="endereco">Endereço:</label>
+        <input type="text" id="endereco" placeholder="Digite seu endereço">
+    </div>
+    <div class="form">
+        <label for="bairro">Bairro:</label>
+        <input type="text" id="bairro" placeholder="Digite seu bairro">
+    </div>
+    <div class="form">
+        <label for="cidade">Cidade:</label>
+        <input type="text" id="cidade" placeholder="Digite sua cidade">
+    </div>
+    <div class="form">
+        <label for="estado">Estado:</label>
+        <input type="text" id="estado" placeholder="Digite seu estado">
+    </div>
+    <div class="form">
+        <label for="cep">CEP:</label>
+        <input type="text" id="cep" placeholder="Digite seu CEP">
+    </div>
+    <div class="form">
+        <label for="telefone">Telefone:</label>
+        <input type="text" id="telefone" placeholder="Digite seu telefone">
+    </div>
+    <input type="button" id="botao" value="Salvar" onclick="MostrarDados()">
+    <div id="impresso">
+        <p id="nomeImpresso"></p>
+        <p id="enderecoImpresso"></p>
+        <p id="bairroImpresso"></p>
+        <p id="cidadeImpresso"></p>
+        <p id="estadoImpresso"></p>
+        <p id="cepImpresso"></p>
+        <p id="telefoneImpresso"></p>
+    </div>
+</body>
+</html>

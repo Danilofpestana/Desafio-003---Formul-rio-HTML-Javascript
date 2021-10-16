@@ -1,0 +1,22 @@
+.form{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    margin: 0 85% 0 0%;
+}
+
+label{
+    justify-content: space-between;
+}
+
+#impresso{
+    margin-top: 30px;
+}
+
+#botao{
+    padding: 5px;
+    align-items: center;
+    margin: 0 0% 0 5%;
+}
